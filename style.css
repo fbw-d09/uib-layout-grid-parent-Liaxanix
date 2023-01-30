@@ -1,4 +1,19 @@
 img {
     width: 100%;
   }
-  
+  *
+  {
+    box-sizing: border-box;
+  }
+  .container
+  {
+    display: grid;
+    background: green;
+    padding: 10px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 20px;
+    grid-template-columns: minmax(100px,350px) 1fr minmax(100px,350px);
+    
+
+
+  }
